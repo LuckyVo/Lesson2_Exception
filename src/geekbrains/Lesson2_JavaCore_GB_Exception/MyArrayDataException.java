@@ -2,12 +2,8 @@ package geekbrains.Lesson2_JavaCore_GB_Exception;
 
 public class MyArrayDataException extends Exception{
 
-    public MyArrayDataException(String error){
-        super(error);
+    public MyArrayDataException(String message){
+        super(message);
     }
 
-    @Override
-    public String toString(){
-        return "MyArrayDataException{}";
-    }
 }
